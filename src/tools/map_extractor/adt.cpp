@@ -6,8 +6,8 @@
 int holetab_h[4] = {0x1111, 0x2222, 0x4444, 0x8888};
 int holetab_v[4] = {0x000F, 0x00F0, 0x0F00, 0xF000};
 
-u_map_fcc MHDRMagic = { {'R','D','H','M'} };
-u_map_fcc MCINMagic = { {'N','I','C','M'} };
+u_map_fcc MHDRMagic = { {'R','D','V','M'} };
+u_map_fcc MCINMagic = { {'N','I','A','M'} };
 u_map_fcc MH2OMagic = { {'O','2','H','M'} };
 u_map_fcc MCNKMagic = { {'K','N','C','M'} };
 u_map_fcc MCVTMagic = { {'T','V','C','M'} };

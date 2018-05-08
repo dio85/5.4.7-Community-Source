@@ -62,9 +62,9 @@ class DBCFile
                 }
 
             private:
-                Record(DBCFile &file, unsigned char *offset): file(file), offset(offset) {}
+                Record(DBCFile& file, unsigned char *offset): file(file), offset(offset) {}
                 unsigned char *offset;
-                DBCFile &file;
+                DBCFile& file;
 
                 friend class DBCFile;
                 friend class DBCFile::Iterator;
